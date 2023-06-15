@@ -1,1 +1,4 @@
-<h1 style="text-align:center">Invaria</h1>
+<div style="text-align:center">
+<h1>Invaria</h1>
+  <p>A simple app front-end for cryptobased company</p>
+</div>
