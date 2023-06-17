@@ -1,0 +1,15 @@
+.circleHeading{
+    position: relative;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+.bgGoKyc{
+    position: absolute;
+    transform: translate(140px,-350px);
+    z-index: 0;
+}
+
+.goKyc{
+    z-index: 10;
+}

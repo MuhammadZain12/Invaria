@@ -8,7 +8,7 @@ function Header(props) {
     soundState[0] ? setSoundState([false,"#B4B7C0"]):setSoundState([true,"#00FF00"])
   }
   return (
-    <div className="w-full h-20 flex flex-row fixed top-0 justify-between text-lg text-white bg-transparent py-auto md:px-[1rem] sm:px-1">
+    <div className={`w-full h-20 flex flex-row fixed top-0 justify-between text-lg text-white z-20 py-auto md:px-[1rem] sm:px-1 ${props.className}`}>
       <div onClick={soundStateHandler} className="w-full flex md:hidden flex-row justify-start my-auto mx-4">
         <svg
           width="20"
@@ -62,8 +62,8 @@ function Header(props) {
       </div>
       <div className="my-auto mx-auto">
         <svg
-          width="96"
-          height="40"
+          width="112"
+          height="50"
           viewBox="0 0 224 80"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
